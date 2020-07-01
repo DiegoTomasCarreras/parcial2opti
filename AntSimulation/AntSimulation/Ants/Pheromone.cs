@@ -13,7 +13,7 @@ namespace AntSimulation
         {
             if (intensity > 100) { intensity = 100; }
 
-            Pheromone[] neighbours = world.GameObjectsNear(pos)
+            Pheromone[] neighbours = world.GameObjectsNearPheromone(pos)
                 .Select(each => each as Pheromone)
                 .Where(p => p != null)
                 .ToArray();

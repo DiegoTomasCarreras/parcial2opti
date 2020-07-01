@@ -107,7 +107,7 @@ namespace AntSimulation
                 for (float y = Position.Y - radius; y <= Position.Y + radius; y++)
                 {
                     result.AddRange(world
-                        .GameObjectsNear(new PointF(x, y))
+                        .GameObjectsNearFood(new PointF(x, y))
                         .Select(t => t as T)
                         .Where(t => t != null));
                 }

@@ -95,7 +95,12 @@ namespace AntSimulation
             return new PointF(Mod(p.X, s.Width), Mod(p.Y, s.Height));
         }
         
-        public IEnumerable<GameObject> GameObjectsNear(PointF pos, float dist = 1)
+        public IEnumerable<GameObject> GameObjectsNearFood(PointF pos, float dist = 1)
+        {
+            return GameObjects.Where(t => t is Food).Where(t => Dist(t.Position, pos) < dist);
+
+        }
+        public IEnumerable<GameObject> GameObjectsNearPheromone(PointF pos, float dist = 1)
         {
             return GameObjects.Where(t => t is Pheromone).Where(t => Dist(t.Position, pos) < dist);
 
