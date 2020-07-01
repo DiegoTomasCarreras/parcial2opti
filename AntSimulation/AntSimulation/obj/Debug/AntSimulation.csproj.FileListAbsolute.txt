@@ -1,0 +1,9 @@
+D:\OptiRicho\Parcial2\AntSimulation\AntSimulation\bin\Debug\AntSimulation.exe.config
+D:\OptiRicho\Parcial2\AntSimulation\AntSimulation\bin\Debug\AntSimulation.exe
+D:\OptiRicho\Parcial2\AntSimulation\AntSimulation\bin\Debug\AntSimulation.pdb
+D:\OptiRicho\Parcial2\AntSimulation\AntSimulation\obj\Debug\AntSimulation.csprojAssemblyReference.cache
+D:\OptiRicho\Parcial2\AntSimulation\AntSimulation\obj\Debug\AntSimulation.Form1.resources
+D:\OptiRicho\Parcial2\AntSimulation\AntSimulation\obj\Debug\AntSimulation.Properties.Resources.resources
+D:\OptiRicho\Parcial2\AntSimulation\AntSimulation\obj\Debug\AntSimulation.csproj.GenerateResource.cache
+D:\OptiRicho\Parcial2\AntSimulation\AntSimulation\obj\Debug\AntSimulation.exe
+D:\OptiRicho\Parcial2\AntSimulation\AntSimulation\obj\Debug\AntSimulation.pdb
